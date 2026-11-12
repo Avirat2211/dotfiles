@@ -1,0 +1,33 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+*.key
+
+# SSH (never commit this)
+.ssh/
+
+# Cache directories
+.cache/
+.local/share/
+
+# Node stuff (if any configs use it)
+node_modules/
+
+
+# Backups
+*.bak
+
+# Kitty bundled shell integration (ships with kitty)
+kitty/.config/kitty/shell-integration/
